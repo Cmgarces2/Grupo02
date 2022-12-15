@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+
+<p>Hello World!</p>
+
+<p>Hello Norway!</p>
+
+<p id="demo"></p>
+<input type="button" onclick="ej()" value="Pruebalo!">
+<script>
+    function ej(){
+        const myCollection = document.getElementsByTagName("p");
+
+document.getElementById("demo").innerHTML = "This document contains " + myCollection.length + " paragraphs.";
+    }
+
+
+</script>
+
+</body>
+</html>
