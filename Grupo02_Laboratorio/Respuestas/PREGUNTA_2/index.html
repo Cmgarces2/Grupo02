@@ -54,20 +54,6 @@
   </div>
 
   <script>
-    xhttp = new XMLHttpRequest(); //Creacion del objeto XMLHttpRequest
-    xhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("demo").innerHTML =
-          this.responseText;
-      }
-    };
-
-    xhttp.open("GET", "ejemplo.xml", true);//Enviar la solicitud para obtener el archivo .txt
-    xhttp.send();  // Solo funciona con el protocolo http (on-line)
-
-
-
-    //Funcion para recuperar los datos del archivo .txt
     function CargarDatos() {
       var xmlhttp = new XMLHttpRequest();
       xmlhttp.onreadystatechange = function () {
@@ -79,7 +65,6 @@
       xmlhttp.send();
       xmlDoc = xmlhttp.responseXML;
     }
-
   </script>
 
 </body>
