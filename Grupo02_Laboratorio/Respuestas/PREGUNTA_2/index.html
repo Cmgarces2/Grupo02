@@ -55,15 +55,15 @@
 
   <script>
     function CargarDatos() {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function () {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           document.getElementById("demo").innerHTML = this.responseText;
         }
       };
-      xmlhttp.open("GET", "ejemplo.xml", false);
-      xmlhttp.send();
-      xmlDoc = xmlhttp.responseXML;
+      xhttp.open("GET", "ejemplo.xml", true);
+      xhttp.send();
+      xDoc = xmlhttp.responseXML;
     }
   </script>
 
