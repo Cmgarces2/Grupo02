@@ -43,9 +43,10 @@
     </ul>
     <div class="section" id="enunciado" style="padding-left:25%;margin-top: 5%;">
       <button style="align-self: center;" type="button" onclick="CargarDatos()">Obtener Datos</button>
-      <p id="demo"></p>
+      
     </div>
     <div class="section" id="resolucion" style="margin-top: 5%;">
+      <p id="demo"></p>
     </div>
     <div class="section" style="margin-top: 5%;">
     </div>
@@ -56,14 +57,15 @@
   <script>
     function CargarDatos() {
       var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("demo").innerHTML = this.responseText;
-        }
-      };
       xhttp.open("GET", "ejemplo.xml", true);
       xhttp.send();
       xDoc = xmlhttp.responseXML;
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("demo").innerHTML += xmlDoc.getElementByTagName("nombre")[i].childNodes[0].nodeValue+"alimento"
+          +xmlDoc.getElementByTagName("comida")[i].childNodes[0].nodeValue+"<br>";
+        }
+      };
     }
   </script>
 
