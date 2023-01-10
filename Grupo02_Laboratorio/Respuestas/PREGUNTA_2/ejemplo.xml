@@ -17,17 +17,17 @@
 	</reptiles>
 	<aves>
 		<id>A04</id>
-		<nombre>Rinoceronte</nombre>
-		<comida>Pasto</comida>
+		<nombre>Caballo</nombre>
+		<comida>Heno</comida>
 	</aves>
 	<peces>
 		<id>A05</id>
-		<nombre>Vaca</nombre>
-		<comida>Heno</comida>
+		<nombre>Ballena</nombre>
+		<comida>Cril</comida>
 	</peces>
 	<anfibios>
 		<id>A06</id>
-		<nombre>Serpiente</nombre>
-		<comida>Roedores</comida>
+		<nombre>Pulpo</nombre>
+		<comida>Cangrejos</comida>
 	</anfibios>
 </animales>

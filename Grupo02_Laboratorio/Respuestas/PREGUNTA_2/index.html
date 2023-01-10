@@ -27,7 +27,7 @@
   <div id="fixed" style="padding-left:30%; padding-top: 10%;">
     <br>
     <img src="../../Imagenes/selloespe.jpg" width="65%" align="center">
-    <h1 style="padding-left:25%;">Pregunta  2</h1>
+    <h1 style="padding-left:25%;">Pregunta 2</h1>
     <p>2) Desarrollar la función CargarDatos(), para desplegar el contenido (Asincrónico) de un archivo XML:</p>
     <ul style="list-style-type: none;">
       <li>xhttp = new XMLHttpRequest();<br>
@@ -46,7 +46,6 @@
       <p id="demo"></p>
     </div>
     <div class="section" id="resolucion" style="margin-top: 5%;">
-      <p id="demo"></p>
     </div>
     <div class="section" style="margin-top: 5%;">
     </div>
@@ -64,6 +63,7 @@
       };
       xhttp.open("GET", "ejemplo.xml", true);
       xhttp.send();
+      xDoc = xmlhttp.responseXML;
     }
   </script>
 
