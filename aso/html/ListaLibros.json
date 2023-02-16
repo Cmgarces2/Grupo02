@@ -1,0 +1,66 @@
+{
+	"libro":[{
+		"Genero": "Terror",
+		"Nombre": "El asesinato en la calle morgue",
+		"Autor": "Allan Poe"
+	},
+	{
+		"Genero": "Terror",
+		"Nombre": "La niebla",
+		"Autor": "Stephen King"
+	},
+	{
+		"Genero": "Terror",
+		"Nombre": "It",
+		"Autor": "Stephen King"
+	},
+	{
+		"Genero": "Aventura",
+		"Nombre": "Veinte mil leguas de viaje submarino",
+		"Autor": "Jules Verne"
+	},
+	{
+		"Genero": "Ciencia Ficcion",
+		"Nombre": "Soy Leyenda",
+		"Autor": "Richard matheson"
+	},
+
+	{
+		"Genero": "Drama",
+		"Nombre": "Bajo la misma estrella",
+		"Autor": "John Green"
+	},
+
+	{
+		"Genero": "Drama",
+		"Nombre": "Ciudades de papel",
+		"Autor": "John Green"
+	},
+
+	{
+		"Genero": "Comic",
+		"Nombre": "Guerra Civil 2",
+		"Autor": "Marvel"
+	},
+	{
+		"Genero": "Comic",
+		"Nombre": "La noche mas oscura",
+		"Autor": "DC"
+	},
+	{
+		"Genero": "Manga",
+		"Nombre": "Dragon ball",
+		"Autor": "Akira toriyama"
+	},
+	{
+		"Genero": "Manga",
+		"Nombre": "Naruto",
+		"Autor": "Masashi Kishimoto"
+	},
+	{
+		"Genero": "Ciencia Ficcion",
+		"Nombre": "Jurassic Park",
+		"Autor": "Michael Crichton"
+	}	
+	]
+}
